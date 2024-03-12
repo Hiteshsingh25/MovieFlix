@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+.formbox{
+    margin:auto;
+    position: relative;
+    width: 50%;
+    /* border: 1px solid #ccc; */
+    /* background-color: #fff; */
+    border-radius: 8px;
+    /* padding:5px; */
+}
+
+.navbar{
+    /* display: flex; */
+    background-color: black;
+}
+
+.drawer{
+    background-color: black;
+    color:#fff;
+}
+.listitem:hover{
+    background-color: #454545;
+}
+.button{
+    margin-top: 40px;
+}
+.modalImg{
+    height: 505px;
+    width:350px;
+    border-radius:9px
+}
+
+/* .badge{
+    margin-left:975px;
+    margin-right: 80px;
+} */
+ @media only screen and (max-width: 1024px) {
+    .modalImg{
+        height: 500px;
+        width:257px;
+    }
+}
+@media only screen and (max-width:775px) and (max-width: 610px){
+   
+    .modalImg{
+        height: 300px;
+        width:247px;
+    }
+}
+@media only screen and (max-width:430px){
+    
+    .modalImg{
+        height: 300px;
+        width:246px;
+    }
+    
+}
+@media only screen and (max-width:376px){
+   
+    .modalImg{
+        height: 300px;
+        width:238px;
+    }
+    
+}
+.movie{
+    /* overflow:auto; */
+    position: relative;
+    /* display: inline-block; */
+    /* padding: 5px; */
+    background-color: #2f2f2f;
+    color: #fff;
+    border-radius: 13px;
+    width: 100%;
+    height:500;
+}
+.img{
+    height: 300px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    width:100%;
+    /* margin: 10px; */
+}
+
+.accord{
+    margin-top:40px;
+    width:90%;
+    padding:  10px;
+    height: 300px;
+}
+.accordbody{
+    position:'relative';
+    /* display: flex; */
+}
+
+.detailsImg{
+    height:100px;
+    /* margin:150px; */
+    align-items: center;
+
+}
+
+.pagination ul li button {
+color :white
+}
+.pagination ul li div{
+color :white
+
+}
+
+.pagination .Mui-selected{
+background-color:rgb(59, 111, 223) !important
+}
